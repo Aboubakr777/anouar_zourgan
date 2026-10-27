@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoAnouar — Cours de soutien en économie et gestion</title>
+  <meta name="description" content="EcoAnouar : cours de soutien en comptabilité, économie et gestion pour les étudiants S1 à S4, avec Anowar Zourgane.">
+  <meta name="theme-color" content="#A92720">
+  <meta property="og:title" content="EcoAnouar — Comprends l'économie et la comptabilité, simplement.">
+  <meta property="og:description" content="Cours de soutien et contenus éducatifs pour les étudiants en économie et gestion (S1–S4).">
+  <meta property="og:image" content="assets/logo.jpg">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#accueil" class="brand" aria-label="EcoAnouar — accueil">
+        <picture>
+          <source srcset="assets/logo-icon.webp" type="image/webp">
+          <img src="assets/logo-icon.png" alt="" width="40" height="44" class="brand__icon">
+        </picture>
+        <span class="brand__name">eco<span>.</span>anouar</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="#accueil" class="nav__link">Accueil</a></li>
+          <li><a href="#apropos" class="nav__link">À propos</a></li>
+          <li><a href="#matieres" class="nav__link">Matières</a></li>
+          <li><a href="#cours" class="nav__link">Cours</a></li>
+          <li><a href="#contenus" class="nav__link">Contenus</a></li>
+          <li><a href="#temoignages" class="nav__link">Avis</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="#inscription" class="btn btn--primary btn--sm nav__cta">S'inscrire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ A. HERO ============ -->
+    <section class="hero" id="accueil">
+      <div class="hero__deco" aria-hidden="true">
+        <span class="deco deco--formula">ΔPIB</span>
+        <span class="deco deco--formula deco--2">Actif = Passif</span>
+        <span class="deco deco--formula deco--3">VAN &gt; 0</span>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">
+            <i class="fa-solid fa-graduation-cap icon" aria-hidden="true"></i>
+            Économie &amp; gestion · S1 à S4
+          </p>
+          <h1 class="hero__title">Comprends l'économie et la comptabilité, <span class="highlight">simplement.</span></h1>
+          <p class="hero__lead">
+            Moi c'est Anowar, alias <strong>EcoAnouar</strong>. J'aide les étudiants en économie et gestion à
+            comprendre leurs cours pas à pas — avec des explications claires, des exemples concrets
+            et beaucoup d'exercices.
+          </p>
+          <div class="hero__actions">
+            <a href="#" class="btn btn--primary" data-wa data-wa-text="Salam Anowar, je voudrais m'inscrire aux cours de soutien.">
+              <i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i>
+              S'inscrire aux cours
+            </a>
+            <a href="#contenus" class="btn btn--ghost">Voir mes contenus</a>
+          </div>
+          <ul class="hero__chips" aria-label="Points forts">
+            <li><i class="fa-solid fa-book-open" aria-hidden="true"></i> Cours clairs</li>
+            <li><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i> Exercices corrigés</li>
+            <li><i class="fa-solid fa-bullseye" aria-hidden="true"></i> Préparation aux examens</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="photo-frame">
+            <!-- PLACEHOLDER PHOTO : remplacer la div ci-dessous par
+                 <img src="assets/anowar.webp" alt="Anowar Zourgane" width="420" height="520"> -->
+            <div class="photo-placeholder" role="img" aria-label="Photo d'Anowar Zourgane (à venir)">
+              <i class="fa-solid fa-user" aria-hidden="true"></i>
+              <span>Photo d'Anowar<br><small>(à ajouter dans assets/)</small></span>
+            </div>
+            <div class="photo-badge photo-badge--top">
+              <picture>
+                <source srcset="assets/logo-icon.webp" type="image/webp">
+                <img src="assets/logo-icon.png" alt="" width="34" height="38">
+              </picture>
+              <span>Master CCA</span>
+            </div>
+            <div class="photo-badge photo-badge--bottom">
+              <span class="progress-dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+              <span>S1 <i class="fa-solid fa-arrow-right" aria-hidden="true"></i> S4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ B. À PROPOS ============ -->
+    <section class="section" id="apropos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">À propos</p>
+          <h2 class="section__title">Qui est derrière EcoAnouar ?</h2>
+          <p class="section__lead">
+            Je m'appelle <strong>Anowar Zourgane</strong>. J'ai suivi le même parcours que toi, et je sais
+            à quel point certains modules peuvent paraître compliqués au début. Mon objectif : te faire gagner du temps
+            et de la confiance.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <article class="info-card reveal">
+            <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Master CCA</h3>
+            <p>Master en Comptabilité, Contrôle et Audit à l'Université Ibn Tofail.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-briefcase"></i></div>
+            <h3>Expérience terrain</h3>
+            <p>Stage de 5 mois en comptabilité chez EFIBEC : la théorie appliquée à de vrais dossiers.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Cours de soutien</h3>
+            <p>J'accompagne des étudiants en économie et gestion pour mieux comprendre et réussir leurs examens.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-video"></i></div>
+            <h3>Créateur de contenu</h3>
+            <p>Des vidéos courtes et des explications sur Instagram et TikTok, sous le nom EcoAnouar.</p>
+          </article>
+        </div>
+
+        <!-- PLACEHOLDER : méthode d'enseignement à confirmer par Anowar -->
+        <div class="method reveal">
+          <div class="method__book" aria-hidden="true"></div>
+          <div class="method__content">
+            <h3 class="method__title">Ma façon d'enseigner</h3>
+            <p class="placeholder-note"><i class="fa-solid fa-pencil" aria-hidden="true"></i> Texte provisoire — à remplacer par la méthode exacte d'Anowar.</p>
+            <ol class="method__steps">
+              <li><strong>Comprendre</strong> — [À compléter : comment le cours est expliqué]</li>
+              <li><strong>Pratiquer</strong> — [À compléter : types d'exercices proposés]</li>
+              <li><strong>Réviser</strong> — [À compléter : préparation aux examens]</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ C. MATIÈRES ============ -->
+    <section class="section section--white" id="matieres">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Matières enseignées</p>
+          <h2 class="section__title">Les modules de S1 à S4</h2>
+          <p class="section__lead">Choisis la matière qui te pose problème, on s'en occupe ensemble.</p>
+          <p class="placeholder-note"><i class="fa-solid fa-pencil" aria-hidden="true"></i> Liste d'exemple — à ajuster selon les modules confirmés.</p>
+        </header>
+
+        <!--
+          Pour modifier la liste : dupliquer / supprimer un <article class="subject-card">.
+          data-subject = nom envoyé dans le message WhatsApp.
+          Le badge semestre (S1, S2...) est à confirmer.
+        -->
+        <div class="subjects-grid">
+          <article class="subject-card reveal">
+            <span class="subject-card__tag">S1 · S2</span>
+            <div class="subject-card__icon" aria-hidden="true"><i class="fa-solid fa-book"></i></div>
+            <h3>Comptabilité générale</h3>
+            <p>Bilan, CPC, écritures et opérations courantes : les bases solides de la compta.</p>
+            <a href="#" class="subject-card__link" data-wa data-subject="Comptabilité générale">Demander un cours <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="subject-card reveal">
+            <span class="subject-card__tag">S3</span>
+            <div class="subject-card__icon" aria-hidden="true"><i class="fa-solid fa-calculator"></i></div>
+            <h3>Comptabilité analytique</h3>
+            <p>Calcul des coûts, centres d'analyse et prix de revient, expliqués étape par étape.</p>
+            <a href="#" class="subject-card__link" data-wa data-subject="Comptabilité analytique">Demander un cours <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="subject-card reveal">
+            <span class="subject-card__tag">S1</span>
+            <div class="subject-card__icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Microéconomie</h3>
+            <p>Offre, demande, comportement du consommateur et du producteur, avec des graphiques clairs.</p>
+            <a href="#" class="subject-card__link" data-wa data-subject="Microéconomie">Demander un cours <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="subject-card reveal">
+            <span class="subject-card__tag">S2</span>
+            <div class="subject-card__icon" aria-hidden="true"><i class="fa-solid fa-earth-africa"></i></div>
+            <h3>Macroéconomie</h3>
+            <p>PIB, inflation, chômage, politiques économiques : comprendre l'économie dans son ensemble.</p>
+            <a href="#" class="subject-card__link" data-wa data-subject="Macroéconomie">Demander un cours <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="subject-card reveal">
+            <span class="subject-card__tag">S2 · S3</span>
+            <div class="subject-card__icon" aria-hidden="true"><i class="fa-solid fa-coins"></i></div>
+            <h3>Mathématiques financières</h3>
+            <p>Intérêts simples et composés, annuités, emprunts : les formules enfin claires.</p>
+            <a href="#" class="subject-card__link" data-wa data-subject="Mathématiques financières">Demander un cours <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="subject-card reveal">
+            <span class="subject-card__tag">S4</span>
+            <div class="subject-card__icon" aria-hidden="true"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3>Gestion et analyse financière</h3>
+            <p>Ratios, bilan financier, tableau de financement : savoir lire la santé d'une entreprise.</p>
+            <a href="#" class="subject-card__link" data-wa data-subject="Gestion et analyse financière">Demander un cours <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ D. COURS DE SOUTIEN ============ -->
+    <section class="section" id="cours">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Cours de soutien</p>
+          <h2 class="section__title">Comment ça se passe ?</h2>
+          <p class="placeholder-note"><i class="fa-solid fa-pencil" aria-hidden="true"></i> Informations provisoires — format, durée et tarifs à confirmer.</p>
+        </header>
+
+        <div class="format-grid">
+          <article class="format-card reveal">
+            <h3><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Lieu</h3>
+            <p>[À compléter : en ligne et/ou en présentiel — ville / quartier]</p>
+          </article>
+          <article class="format-card reveal">
+            <h3><i class="fa-solid fa-users" aria-hidden="true"></i> Format</h3>
+            <p>[À compléter : cours individuel et/ou en petit groupe]</p>
+          </article>
+          <article class="format-card reveal">
+            <h3><i class="fa-regular fa-clock" aria-hidden="true"></i> Durée</h3>
+            <p>[À compléter : durée d'une séance]</p>
+          </article>
+          <article class="format-card reveal">
+            <h3><i class="fa-solid fa-tags" aria-hidden="true"></i> Tarifs</h3>
+            <p>[À compléter si Anowar souhaite les publier — sinon « Tarifs sur demande »]</p>
+          </article>
+        </div>
+
+        <div class="register">
+          <div class="register__steps reveal">
+            <h3>S'inscrire en 3 étapes</h3>
+            <ol class="steps">
+              <li><span>1</span><div><strong>Remplis le formulaire</strong><p>Ton nom, ton semestre et la matière.</p></div></li>
+              <li><span>2</span><div><strong>Envoie sur WhatsApp</strong><p>Le message est préparé automatiquement.</p></div></li>
+              <li><span>3</span><div><strong>On fixe la séance</strong><p>Anowar te répond pour organiser le cours.</p></div></li>
+            </ol>
+          </div>
+
+          <form class="form reveal" id="inscription" novalidate aria-labelledby="formTitle">
+            <h3 id="formTitle" class="form__title">Formulaire d'inscription</h3>
+
+            <div class="field">
+              <label for="fullName">Nom et prénom <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="fullName" name="fullName" autocomplete="name" required minlength="3" aria-describedby="fullNameError">
+              <p class="field__error" id="fullNameError" aria-live="polite"></p>
+            </div>
+
+            <fieldset class="field">
+              <legend>Niveau universitaire <span class="req" aria-hidden="true">*</span></legend>
+              <div class="level-group" role="radiogroup" aria-describedby="levelError">
+                <label class="level"><input type="radio" name="level" value="S1" required><span>S1</span></label>
+                <label class="level"><input type="radio" name="level" value="S2"><span>S2</span></label>
+                <label class="level"><input type="radio" name="level" value="S3"><span>S3</span></label>
+                <label class="level"><input type="radio" name="level" value="S4"><span>S4</span></label>
+              </div>
+              <p class="field__error" id="levelError" aria-live="polite"></p>
+            </fieldset>
+
+            <fieldset class="field" id="subjectField">
+              <legend>Matière(s) souhaitée(s) <span class="req" aria-hidden="true">*</span> <span class="optional">— plusieurs choix possibles</span></legend>
+              <div class="subject-group" id="subjectGroup" aria-describedby="subjectError">
+                <!-- cases générées depuis les cartes matières (script.js) -->
+              </div>
+              <p class="field__error" id="subjectError" aria-live="polite"></p>
+            </fieldset>
+
+            <div class="field">
+              <label for="message">Message <span class="optional">(optionnel)</span></label>
+              <textarea id="message" name="message" rows="3" maxlength="500" placeholder="Ex : j'ai du mal avec les amortissements…"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">
+              <i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i>
+              Envoyer sur WhatsApp
+            </button>
+            <p class="form__hint">WhatsApp s'ouvrira avec ton message prêt à envoyer.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ E. MES CONTENUS ============ -->
+    <section class="section section--white" id="contenus">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Mes contenus</p>
+          <h2 class="section__title">Apprendre aussi en scrollant</h2>
+          <p class="section__lead">
+            Sur Instagram et TikTok, je partage des explications courtes, des astuces de révision et des
+            exercices corrigés pour t'aider entre deux séances.
+          </p>
+        </header>
+
+        <!--
+          Cartes vidéo : remplacer .video-card__thumb par
+          <img src="assets/thumb-1.webp" alt="..." loading="lazy">
+          ou par un embed Instagram/TikTok (blockquote officiel) dans .video-card__media.
+        -->
+        <div class="videos-grid">
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <div class="video-card__thumb"><span class="play" aria-hidden="true"><i class="fa-solid fa-play"></i></span><small>Miniature à venir</small></div>
+              <span class="video-card__platform">Instagram</span>
+            </div>
+            <div class="video-card__body">
+              <h3>[Titre de la vidéo]</h3>
+              <p>[Courte description du contenu]</p>
+            </div>
+          </article>
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <div class="video-card__thumb"><span class="play" aria-hidden="true"><i class="fa-solid fa-play"></i></span><small>Miniature à venir</small></div>
+              <span class="video-card__platform video-card__platform--tt">TikTok</span>
+            </div>
+            <div class="video-card__body">
+              <h3>[Titre de la vidéo]</h3>
+              <p>[Courte description du contenu]</p>
+            </div>
+          </article>
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <div class="video-card__thumb"><span class="play" aria-hidden="true"><i class="fa-solid fa-play"></i></span><small>Miniature à venir</small></div>
+              <span class="video-card__platform">Instagram</span>
+            </div>
+            <div class="video-card__body">
+              <h3>[Titre de la vidéo]</h3>
+              <p>[Courte description du contenu]</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="social-cta reveal">
+          <a href="#" class="btn btn--social btn--insta" data-link="instagram" target="_blank" rel="noopener">
+            <i class="fa-brands fa-instagram icon" aria-hidden="true"></i>
+            Suivre sur Instagram
+          </a>
+          <a href="#" class="btn btn--social btn--tiktok" data-link="tiktok" target="_blank" rel="noopener">
+            <i class="fa-brands fa-tiktok icon" aria-hidden="true"></i>
+            Suivre sur TikTok
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ F. TÉMOIGNAGES ============ -->
+    <section class="section" id="temoignages">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Témoignages &amp; résultats</p>
+          <h2 class="section__title">Ce qu'en disent les étudiants</h2>
+          <p class="section__lead">Les avis de vrais étudiants seront bientôt publiés ici.</p>
+        </header>
+
+        <!--
+          Ajouter un vrai témoignage : remplacer une carte .testimonial--placeholder par :
+          <figure class="testimonial reveal">
+            <blockquote>« Texte authentique de l'étudiant »</blockquote>
+            <figcaption><strong>Prénom</strong> · S2 · Matière</figcaption>
+          </figure>
+        -->
+        <div class="testimonials-grid">
+          <figure class="testimonial testimonial--placeholder reveal">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Emplacement réservé à un témoignage d'étudiant.</blockquote>
+            <figcaption>Témoignage à venir</figcaption>
+          </figure>
+          <figure class="testimonial testimonial--placeholder reveal">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Emplacement réservé à un témoignage d'étudiant.</blockquote>
+            <figcaption>Témoignage à venir</figcaption>
+          </figure>
+          <figure class="testimonial testimonial--placeholder reveal">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Emplacement réservé à un résultat ou une réussite.</blockquote>
+            <figcaption>Résultat à venir</figcaption>
+          </figure>
+        </div>
+        <p class="testimonials-note reveal">Tu as suivi un cours avec Anowar ? <a href="#" data-wa data-wa-text="Salam Anowar, je voudrais partager mon avis sur tes cours.">Partage ton avis sur WhatsApp</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ G. CONTACT ============ -->
+    <section class="section section--contact" id="contact">
+      <div class="container contact">
+        <div class="contact__text reveal">
+          <p class="eyebrow eyebrow--light">Contact</p>
+          <h2 class="section__title">Une question ? Écris-moi.</h2>
+          <p>Que ce soit pour t'inscrire, demander des infos sur un module ou juste poser une question, n'hésite pas. Je réponds dès que possible.</p>
+        </div>
+        <div class="contact__links reveal">
+          <a href="#" class="contact-link" data-wa data-wa-text="Salam Anowar, j'ai une question :">
+            <i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i>
+            <span><strong>WhatsApp</strong><small>06 34 68 60 48</small></span>
+          </a>
+          <a href="#" class="contact-link" data-link="instagram" target="_blank" rel="noopener">
+            <i class="fa-brands fa-instagram icon" aria-hidden="true"></i>
+            <span><strong>Instagram</strong><small>@ecoanouar</small></span>
+          </a>
+          <a href="#" class="contact-link" data-link="tiktok" target="_blank" rel="noopener">
+            <i class="fa-brands fa-tiktok icon" aria-hidden="true"></i>
+            <span><strong>TikTok</strong><small>@ecoanouar23</small></span>
+          </a>
+          <a href="#" class="contact-link" data-link="email">
+            <i class="fa-solid fa-envelope icon" aria-hidden="true"></i>
+            <span><strong>Email</strong><small data-email-label>anouarzourgane@gmail.com</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ H. FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <picture>
+          <source srcset="assets/logo.webp" type="image/webp">
+          <img src="assets/logo.jpg" alt="Logo EcoAnouar" width="140" height="125" loading="lazy" class="footer__logo">
+        </picture>
+        <p>Cours de soutien et contenus éducatifs en économie et gestion pour les étudiants de S1 à S4.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Liens du pied de page">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#matieres">Matières</a></li>
+          <li><a href="#cours">Cours de soutien</a></li>
+          <li><a href="#contenus">Mes contenus</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+        <h3>Suivre EcoAnouar</h3>
+        <div class="social-icons">
+          <a href="#" data-wa aria-label="WhatsApp"><i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i></a>
+          <a href="#" data-link="instagram" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram icon" aria-hidden="true"></i></a>
+          <a href="#" data-link="tiktok" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok icon" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">© <span id="year"></span> EcoAnouar — Anowar Zourgane. Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <!-- Bouton WhatsApp flottant -->
+  <a href="#" class="wa-float" data-wa data-wa-text="Salam Anowar, j'ai une question sur les cours." aria-label="Contacter sur WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+  <script src="script.js" defer></script>
+</body>
+</html>
